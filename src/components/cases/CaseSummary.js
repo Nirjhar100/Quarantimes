@@ -8,7 +8,7 @@ const CaseSummary = (props)=>{
 
     useEffect(()=>{
         async function fetchData(){
-            const result = await axios('https://corona.lmao.ninja/countries/India');
+            const result = await axios('https://corona.lmao.ninja/v2/countries/India');
             setItems(result.data);
         }
         fetchData();
