@@ -4,12 +4,15 @@ import Dashboard from './components/layout/Dashboard'
 import About from './components/layout/About'
 import Guide from './components/layout/Guide'
 import {BrowserRouter , Route,Switch} from 'react-router-dom'
+import Clock from './components/layout/Clock'
+
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App">
       <Navbar/>
+      <Clock/>
       <Switch>
       <Route path="/" exact component={Dashboard}/>
       <Route path="/about" component={About}/>

@@ -116,11 +116,13 @@ class TaskList extends Component{
                         taskComplete["textDecoration"] = "line-through";
                     }
                     return (
-                    <div className="card " key={index} style={taskComplete}>
+                    <div className="card abcd" key={index} style={taskComplete}>
+                            <div className="">
                             <span class="intext">{item.task}</span>
-                            <span class="small material-icons secondary-content" onClick={() => this.deleteTask(index)}>delete</span>
-                            <span class="small material-icons secondary-content" onClick={() => this.undoTask(index)}>undo</span>
-                            <span class="small material-icons secondary-content" onClick={() => this.updateTask(index)}>check</span>
+                            <a href="#!" class="small material-icons secondary-content" onClick={() => this.deleteTask(index)}>delete</a>
+                            <a href="#!" class="small material-icons secondary-content" onClick={() => this.undoTask(index)}>remove_circle_outline</a>
+                            <a href="#!" class="small material-icons secondary-content" onClick={() => this.updateTask(index)}>check_circle_outline</a>
+                            </div>
                     </div>
                     );
                 })
@@ -131,10 +133,10 @@ class TaskList extends Component{
 
       render() {
         return (
-          <div className="abc card ">
-            <h5 className="white-text header center">📝 Todos</h5>
-            <div className="container">
-              <form onSubmit={this.onSubmit} className="white-text">
+          <div className="card collection">
+            <h5 className="white-text center">📝 Todos</h5>
+            
+            <form onSubmit={this.onSubmit} className="white-text">
                 <input
                   type="text"
                   name="task"
@@ -144,11 +146,9 @@ class TaskList extends Component{
                   placeholder="ex. Buy milk..."
                   className="white-text"
                 />
-                </form>
-                </div>
-            <div>
-              <div className="collection">{this.state.tasklist}</div>
-            </div>
+            </form>
+              <div>{this.state.tasklist}</div>
+            
           </div>
         );
       }

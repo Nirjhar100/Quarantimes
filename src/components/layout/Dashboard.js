@@ -3,6 +3,7 @@ import CaseSummary from '../cases/CaseSummary'
 import Quarantunes from '../quarantunes/Quarantunes'
 import Quarantales from '../quarantales/Quarantales'
 import TaskList from '../todo/TaskList'
+import BookList from '../bookList/BookList'
 
 
 function Dashboard() {
@@ -19,6 +20,7 @@ function Dashboard() {
         <TaskList/>
         </div>
       </div>
+      <BookList/>
       <div className="">
         <Quarantales/>
       </div>
