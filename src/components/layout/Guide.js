@@ -2,7 +2,7 @@ import React from 'react'
 
 const Guide = ()=>{
     return(
-        <div class="container center">
+        <div class="container center collection ">
           <h4 class="white-text center">Safe Guide</h4>
           
 

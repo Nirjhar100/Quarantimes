@@ -10,7 +10,7 @@ const Clock=()=>{
         setTime(new Date());
     }
     return(
-        <div class="center card">
+        <div class="center card collection">
             <span class ="white-text">{time.toLocaleTimeString()}</span>
         </div>
     )

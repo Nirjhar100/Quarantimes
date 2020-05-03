@@ -15,7 +15,7 @@ const CaseSummary = (props)=>{
     },[])
 
     return(
-            <div className="card ">
+            <div className="card collection ">
                 <div className="card-title center white-text">COVID-19</div>
                 <div className="card-content">
                     <p className = "white-text">TOTAL CONFIRMED</p><p className = "blue-text"> {items.cases}</p><br/>
