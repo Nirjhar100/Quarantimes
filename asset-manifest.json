@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Quarantimes/static/css/main.a0c2f721.chunk.css",
+    "main.js": "/Quarantimes/static/js/main.35112abb.chunk.js",
+    "main.js.map": "/Quarantimes/static/js/main.35112abb.chunk.js.map",
+    "runtime-main.js": "/Quarantimes/static/js/runtime-main.df19b77e.js",
+    "runtime-main.js.map": "/Quarantimes/static/js/runtime-main.df19b77e.js.map",
+    "static/js/2.fd80c42a.chunk.js": "/Quarantimes/static/js/2.fd80c42a.chunk.js",
+    "static/js/2.fd80c42a.chunk.js.map": "/Quarantimes/static/js/2.fd80c42a.chunk.js.map",
+    "index.html": "/Quarantimes/index.html",
+    "precache-manifest.7f8fbdeda726b729d0fb70654b697d5e.js": "/Quarantimes/precache-manifest.7f8fbdeda726b729d0fb70654b697d5e.js",
+    "service-worker.js": "/Quarantimes/service-worker.js",
+    "static/css/main.a0c2f721.chunk.css.map": "/Quarantimes/static/css/main.a0c2f721.chunk.css.map",
+    "static/js/2.fd80c42a.chunk.js.LICENSE.txt": "/Quarantimes/static/js/2.fd80c42a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df19b77e.js",
+    "static/js/2.fd80c42a.chunk.js",
+    "static/css/main.a0c2f721.chunk.css",
+    "static/js/main.35112abb.chunk.js"
+  ]
+}
