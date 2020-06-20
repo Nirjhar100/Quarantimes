@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Quarantimes/static/css/main.a0c2f721.chunk.css",
-    "main.js": "/Quarantimes/static/js/main.35112abb.chunk.js",
-    "main.js.map": "/Quarantimes/static/js/main.35112abb.chunk.js.map",
-    "runtime-main.js": "/Quarantimes/static/js/runtime-main.df19b77e.js",
-    "runtime-main.js.map": "/Quarantimes/static/js/runtime-main.df19b77e.js.map",
-    "static/js/2.fd80c42a.chunk.js": "/Quarantimes/static/js/2.fd80c42a.chunk.js",
-    "static/js/2.fd80c42a.chunk.js.map": "/Quarantimes/static/js/2.fd80c42a.chunk.js.map",
-    "index.html": "/Quarantimes/index.html",
-    "precache-manifest.7f8fbdeda726b729d0fb70654b697d5e.js": "/Quarantimes/precache-manifest.7f8fbdeda726b729d0fb70654b697d5e.js",
-    "service-worker.js": "/Quarantimes/service-worker.js",
-    "static/css/main.a0c2f721.chunk.css.map": "/Quarantimes/static/css/main.a0c2f721.chunk.css.map",
-    "static/js/2.fd80c42a.chunk.js.LICENSE.txt": "/Quarantimes/static/js/2.fd80c42a.chunk.js.LICENSE.txt"
+    "main.css": "/Nirjhar100/Quarantimes.git/static/css/main.a0c2f721.chunk.css",
+    "main.js": "/Nirjhar100/Quarantimes.git/static/js/main.8efc0502.chunk.js",
+    "main.js.map": "/Nirjhar100/Quarantimes.git/static/js/main.8efc0502.chunk.js.map",
+    "runtime-main.js": "/Nirjhar100/Quarantimes.git/static/js/runtime-main.37cb9856.js",
+    "runtime-main.js.map": "/Nirjhar100/Quarantimes.git/static/js/runtime-main.37cb9856.js.map",
+    "static/js/2.fd80c42a.chunk.js": "/Nirjhar100/Quarantimes.git/static/js/2.fd80c42a.chunk.js",
+    "static/js/2.fd80c42a.chunk.js.map": "/Nirjhar100/Quarantimes.git/static/js/2.fd80c42a.chunk.js.map",
+    "index.html": "/Nirjhar100/Quarantimes.git/index.html",
+    "precache-manifest.91ce52f046140da5a3b33d82b5076b37.js": "/Nirjhar100/Quarantimes.git/precache-manifest.91ce52f046140da5a3b33d82b5076b37.js",
+    "service-worker.js": "/Nirjhar100/Quarantimes.git/service-worker.js",
+    "static/css/main.a0c2f721.chunk.css.map": "/Nirjhar100/Quarantimes.git/static/css/main.a0c2f721.chunk.css.map",
+    "static/js/2.fd80c42a.chunk.js.LICENSE.txt": "/Nirjhar100/Quarantimes.git/static/js/2.fd80c42a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.df19b77e.js",
+    "static/js/runtime-main.37cb9856.js",
     "static/js/2.fd80c42a.chunk.js",
     "static/css/main.a0c2f721.chunk.css",
-    "static/js/main.35112abb.chunk.js"
+    "static/js/main.8efc0502.chunk.js"
   ]
 }
