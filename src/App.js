@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <Clock/>
       <Switch>
-      <Route path="/" exact component={Dashboard}/>
+      <Route exact path="/" component={Dashboard}/>
       <Route path="/about" component={About}/>
       <Route path="/guide" component={Guide}/>
       </Switch>
