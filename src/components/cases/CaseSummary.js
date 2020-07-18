@@ -1,17 +1,20 @@
 import React, {useEffect, useState} from 'react';
 import './CaseSummary.css';
 import axios from 'axios';
+import { trackPromise } from 'react-promise-tracker';
 
 const CaseSummary = (props)=>{
 
     const [items, setItems] = useState([])
 
     useEffect(()=>{
-        async function fetchData(){
-            const result = await axios('https://corona.lmao.ninja/v2/countries/India');
-            setItems(result.data);
-        }
-        fetchData();
+        trackPromise(
+            axios.get('https://corona.lmao.ninja/v2/countries/India')
+            .then((res)=>{
+                setItems(res.data)
+            })
+        )
+
     },[])
 
     return(
